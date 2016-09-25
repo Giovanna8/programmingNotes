@@ -11,7 +11,11 @@ git push origin --all
 git fetch . master:gh-pages
 git push origin --all
 
-# if There’s an error
+# Don’t forget (when forking)
+git pull upstream <develop>
+// use this to update to the latest development ver.
+
+# Use in an emergency
 git push origin --all --force
 
 # Heroku Projects
