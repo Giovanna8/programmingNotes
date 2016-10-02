@@ -1,0 +1,21 @@
+# Part of a Visual Basic Calculator
+
+This calculates and displays GrossPay and NetPay within a Form in Vusual Basic
+
+```
+Private Sub btnCalc_Click(ByVal sender System.Object, By Val e As System.EventArgs) Handles btnCalc.Click
+
+    Dim txtHours As Integer
+    Dim txtRate, txtDeductions, lblGrossPay, lblNetPay As Decimal
+
+    ` Calculate Gross Pay and Net Pay
+    lblGrossPay = txtHours * txtRate
+    lblNetPay = lblGrossPay - txtDeductions
+
+    ` Format and Display Values
+    lblGrossPayTextBox.Text = lblGrossPay.ToString("C")
+    lblNetPayTextBox.Text = lblNetPay.ToString("C")
+
+
+End Sub
+```
