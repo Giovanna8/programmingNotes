@@ -2,6 +2,7 @@
 
 # Going through different methods to render pics in a React App
 
+```
 var React = require('react');
 var ReactDOM = require('react-dom');
 
@@ -13,18 +14,18 @@ function makeDoggy (e) {
 }
 
 var kitty = (
-	<img 
+    <img
     onClick={makeDoggy}
-		src="https://s3.amazonaws.com/codecademy-content/courses/React/react_photo-kitty.jpg" 
-		alt="kitty" />
+        src="https://s3.amazonaws.com/codecademy-content/courses/React/react_photo-kitty.jpg"
+        alt="kitty" />
 );
 
 ReactDOM.render(kitty, document.getElementById('app'));
+```
 
+# Rendering different picks through a 'coin toss'.
 
-
-# Rendering different picks through a ‘coin toss’.
-
+```
 var React = require('react');
 var ReactDOM = require('react-dom');
 
@@ -41,12 +42,14 @@ var pics = {
 var img = <img src={pics[coinToss() == 'heads' ? 'kitty' : 'doggy']} />;
 
 ReactDOM.render(
-	img, 
-	document.getElementById('app')
+    img,
+    document.getElementById('app')
 );
+```
 
 # && Operator
 
+```
 example;
 
 {!judgmental && <li>bubba<li/>}
@@ -60,7 +63,7 @@ var people = ['Rowe', 'Prevost', 'Gare'];
 
 var peopleLIs = people.map(function(person){
   // return statement goes here:
-	return <li>{person}</li>
+    return <li>{person}</li>
 });
 
 // ReactDOM.render goes here:
@@ -80,38 +83,19 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var people = ['Rowe', 'Prevost', 'Gare'];
 var peopleLIs = people.map(function(person, i){
-	return <li key={'person_' + i}>{person}</li>
+    return <li key={'person_' + i}>{person}</li>
 });
 ReactDOM.render(<ul>{peopleLIs}</ul>, document.getElementById('app'));
-
+```
 
 # Without JSX
 
+```
 // In React, just as in ES6 Javascript, you can render HTML without JSX. Here’s how you would in React, just without JSX.
 
 var greatestDivEver = React.createElement(
-	"div",
+    "div",
      null,
-	"i am div"
+    "i am div"
 );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```

@@ -1,5 +1,6 @@
-Javascript for loading a timer on screen  
+# Javascript for loading a timer on screen
 
+```
 <SCRIPT TYPE="text/javascript" LANGUAGE="JavaScript">
   <!--
   dateFuture = new Date(2016,5,9,17,00,00);
@@ -43,3 +44,4 @@ Javascript for loading a timer on screen
 
   //-->
   </script>
+```
