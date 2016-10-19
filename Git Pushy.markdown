@@ -23,7 +23,7 @@ git push origin --all
 ```
 ### Don’t forget (when forking)
 `git pull upstream <develop>`
-// use this to update to the latest development ver.
+use this to update to the latest development ver.
 
 ### Use in an emergency
 Very rare that you’ll have to use this, only use it on your own repositories, and before doing this check to see if you have the latest upstream, and if your branch will merge.
