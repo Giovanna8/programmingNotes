@@ -1,23 +1,26 @@
 # Git Notes
 
 ## Git
-Staging for commit
-`git add .`
-Commiting the latest version
-`git commit -m “”`
-pushing the commit
-`git push origin <development branch>`
-
+```
+///Staging for commit
+git add .
+///Commiting the latest version
+git commit -m “”
+///pushing the commit
+git push origin <development branch>
+```
 ### first time pushing to gh-pages
 Pushes to both master and `gh-pages` branches at the same time
-`git branch gh-pages`
-`git fetch . master:gh-pages`
-`git push origin --all`
-
+```
+git branch gh-pages
+git fetch . master:gh-pages
+git push origin --all
+```
 ### after first time...
-`git fetch . master:gh-pages`
-`git push origin --all`
-
+```
+git fetch . master:gh-pages
+git push origin --all
+```
 ### Don’t forget (when forking)
 `git pull upstream <develop>`
 // use this to update to the latest development ver.
@@ -36,10 +39,11 @@ Use for git-ftp package
 Useful for wordpress development locally
 ### Setup
 First Time setup
-`git config git-ftp.url ftp.example.net`
-`git config git-ftp.user ftp-user`
-`git config git-ftp.password secr3t`
-
+```
+git config git-ftp.url ftp.example.net
+git config git-ftp.user ftp-user
+git config git-ftp.password secr3t
+```
 ### Initial Push
 `git ftp init`
 
@@ -50,6 +54,8 @@ First Time setup
 `git ftp catchup`
 
 ### Work and deploy
-`echo "new content" >> index.txt`
-`git commit index.txt -m "Add new content”`
-`git ftp push`
+```
+echo "new content" >> index.txt
+git commit index.txt -m "Add new content”
+git ftp push
+```
