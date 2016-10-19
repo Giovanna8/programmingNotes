@@ -65,18 +65,26 @@ in this example, let's do the first three letters of the  string, and then the l
 
 
 
-## ACA Oct | Week Two
+## ACA Oct 18 | Week Two
 
-Learning about variables and how they are used in programming.
+### Learning about variables and how they are used in programming.
 ie( var x, function x, etc.)
 
-Learning how to include variables into if/else statements
+### Learning how to include variables into if/else statements
 ie
+```
     function conditionalReturn() {
         var num x;
         var
     
     }
+```
+    
+### Understanding if/else statements
+
+
+
+## ACA Oct 20 | Week Two
 
 
 
@@ -85,7 +93,4 @@ ie
 
 
 #### Notes
-
-Add step to ‘Claiming your workbook’
-
-A step after 5. Where you ` cd ` into the directory you made.
+n/a
