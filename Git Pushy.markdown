@@ -2,42 +2,42 @@
 git add .
 git commit -m “”
 
-# first time pushing to gh-pages
+## first time pushing to gh-pages
 git branch gh-pages
 git fetch . master:gh-pages
 git push origin --all
 
-# after first time...
+## after first time...
 git fetch . master:gh-pages
 git push origin --all
 
-# Don’t forget (when forking)
+## Don’t forget (when forking)
 git pull upstream <develop>
 // use this to update to the latest development ver.
 
-# Use in an emergency
+## Use in an emergency
 git push origin --all --force
 
-# Heroku Projects
+## Heroku Projects
 git push heroku master
 
 
-## FTP
-# Setup
+# Git-FTP
+## Setup
 git config git-ftp.url ftp.example.net
 git config git-ftp.user ftp-user
 git config git-ftp.password secr3t
 
-# Initial Push
+## Initial Push
 git ftp init
 
-# Upload all files
+## Upload all files
 git ftp push
 
-# Or if the files are already there
+## Or if the files are already there
 git ftp catchup
 
-# Work and deploy
+## Work and deploy
 echo "new content" >> index.txt
 git commit index.txt -m "Add new content"
 git ftp push
