@@ -28,37 +28,44 @@ Here’s a few things you need installed beforehand
 
 
 ### Basic Environment Structure
-The basic environment structure should look like this:
-- `.git`
-- `vnev` (virtualenv will create this later on)
-- `.gitignore`
+
+The basic environment structure should look something like this:
+
+- `.git` (Git will create this once you `git init`)
+- `vnev` (virtualenv will create this folder later on)
+- `.gitignore` 
 - `main.py` (or main.py, main file that runs the app)
 
 
 ### Setting up the environment for development
 
 - `mkdir` a new project directory to whatever you want to call it.
-- `cd <project directory>` 
+- `cd <project directory>`
+- Create the `.gitignore` file. 
 - Create your main file, `main.py`, this is where you will develop your app.
-... Setting up Git in the project (Optional)
+...Now we’re going to set up Git in the project (Optional)
 - `git init` (initialize git on your project)
 - `hub create` (Creates the git repository on GitHub)
-... Setting up the virtual environment (Used for installations and development)
-- `virtual venv` (This will setup the virtual environment where development will take place, this will add the `venv` folder to your project as well)
+...Now we’re going to set up the virtual environment, make sure to have `virtualenv` installed globally.
+- `virtualenv venv` (This will setup the virtual environment where development will take place, this will add the `venv` folder to your project as well)
 ... *Open a new tab in your terminal if you want for this next step
 - `source venv/bin/activate` (This will ‘activate’ your virtual environment, run this command whenever you need to start up the environment)
-- Now we’re going to install Flask
+- Now we’re going to install Flask. This is the framework that the application will be built on.
 ... You should be seeing something like `(venv) $` in the terminal, that’s good, that means you’re inside the virtual environment.
 - `pip install flask` (This will install Flask, which we’ll be using)
+...We will need to install more pip packages later on
 - `python`
 ...You should be seeing `>>>` in the terminal, it means that Python is running
 - `import flask` (This installs flask inside your project for development)
-
-Now your environment is all set and you’ll be ready to start creating your first python web app
-
+...Now your environment is all set and you’ll be ready to start creating your first python web app
 
 
 
+### List of pip installs
+Just to get these out of the way
+
+- `pip install flask-script` 
+- `pip install flask-bootstrap`
 
 
 
