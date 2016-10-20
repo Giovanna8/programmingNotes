@@ -66,6 +66,8 @@ Just to get these out of the way
 
 - `pip install flask-script` 
 - `pip install flask-bootstrap`
+- `pip install flask-moment`
+- `pip install flask-wtf`
 
 
 
