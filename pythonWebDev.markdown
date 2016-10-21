@@ -64,10 +64,7 @@ The basic environment structure should look something like this:
 ### List of pip installs
 Just to get these out of the way
 
-- `pip install flask-script` 
-- `pip install flask-bootstrap`
-- `pip install flask-moment`
-- `pip install flask-wtf`
+- `pip install flask-script flask-bootstrap flask-moment flask-wtf` 
 
 
 
