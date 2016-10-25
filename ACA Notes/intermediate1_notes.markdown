@@ -1,8 +1,22 @@
 # ACA Notes
 
+### Prerequisites
+
+We’re going to be going over the basic tools we’ll be using this semester.
+
+- `The Command Line`, `terminal` or `CLI` (This is where we’ll do a lot our work in. Publishing our work, creating different versions of programs, Installing development libraries for out program, etc.)
+- `Atom`
+⋅⋅⋅The Atom Text Editor (or whatever editor you prefer). You can get it here: <https://atom.io/>
+- `Git`
+⋅⋅⋅Install and setup git in your terminal by following the steps here: <https://help.github.com/articles/set-up-git/>
+⋅⋅⋅If you don’t want to use git, you don’t have to, but I’ll be using it to add to my GitHub profile.
+- 
+
+
+
+
 
 ## ACA Oct 11 | Week One
-
 
 
 ### Git stuff
