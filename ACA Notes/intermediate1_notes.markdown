@@ -10,7 +10,10 @@ We’re going to be going over the basic tools we’ll be using this semester.
 - `Git`
 ⋅⋅⋅Install and setup git in your terminal by following the steps here: <https://help.github.com/articles/set-up-git/>
 ⋅⋅⋅If you don’t want to use git, you don’t have to, but I’ll be using it to add to my GitHub profile.
-- 
+- `Node`
+⋅⋅⋅This allows you to develop and test Javascript locally on your computer (ie Local Servers, building projects, etc.)
+- `NPM`
+⋅⋅⋅This is the package manager for node as well as Node’s tool-belt of sorts. With this you can tell node what to do, and download packages and Javascript Libraries to help make developing more streamlines and less of a headache. Most things Front-End development 
 
 
 
