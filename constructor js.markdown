@@ -1,3 +1,5 @@
+# Constructor JS
+
 In Javascript there are no classes like in CSS to give multiple objects a pattern of sorts, instead there's a little something called Constructors. A constructor is useful when you want to create multiple similar objects with the same properties and methods.
 
 An example of this would be something like;

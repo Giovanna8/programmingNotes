@@ -6,6 +6,6 @@ Go into projects folder
 - cd x
 - ember server
 
+Extra:
 
-Extra: 
 - $ npm install && bower install
