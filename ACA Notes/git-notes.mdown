@@ -14,7 +14,25 @@ Alright, so I'll go over the why and how of git, as well as some of the command-
 
 - `git` - You might already have git installed if you installed the GitHub Desktop client in the intro. If you didn't here's the link to do so, even though we wont be using the Desktop client, it can still come in handy if you're ever stuck <https://desktop.github.com/>.
 
-- `ssh key` - Your SSH key is the bridge between your computer and your github account, more specifically, it's your computer's fingerprint that GitHub will see and know that it's you and not someone else pushing stuff to your GitHub account. Here's what you need to do: ⋅⋅⋅Go to root `cd ~` ⋅⋅⋅List files in .ssh directory `ls -al !/.ssh` ⋅⋅⋅Generate ssh key `ssh-keygen -t rsa -b 4096 "example@gmail.com"` ⋅⋅⋅Press `enter` for all the info (for default quick setup) ⋅⋅⋅The command line will output a fingerprint for your computer (SSH Key) ⋅⋅⋅Add your key to the ssh-agent `eval "$(ssh-agent -s)"` `ssh-add ~/.ssh/id_rsa` ⋅⋅⋅Now to copy the SSH key, run `pbcopy < ~/.ssh/id_rsa.pub`. Then go through the instructions on `https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/` ⋅⋅⋅Now test your SSH `ssh -T git@github.com` ⋅⋅⋅ And now you should be ready to go!
+- `ssh key` - Your SSH key is the bridge between your computer and your github account, more specifically, it's your computer's fingerprint that GitHub will see and know that it's you and not someone else pushing stuff to your GitHub account. Here's what you need to do:
+
+⋅⋅⋅Go to root `cd ~`
+
+⋅⋅⋅List files in .ssh directory `ls -al !/.ssh`
+
+⋅⋅⋅Generate ssh key `ssh-keygen -t rsa -b 4096 "example@gmail.com"`
+
+⋅⋅⋅Press `enter` for all the info (for default quick setup)
+
+⋅⋅⋅The command line will output a fingerprint for your computer (SSH Key)
+
+⋅⋅⋅Add your key to the ssh-agent `eval "$(ssh-agent -s)"` `ssh-add ~/.ssh/id_rsa`
+
+⋅⋅⋅Now to copy the SSH key, run `pbcopy < ~/.ssh/id_rsa.pub`. Then go through the instructions on `https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/`
+
+⋅⋅⋅Now test your SSH `ssh -T git@github.com`
+
+⋅⋅⋅And now you should be ready to go!
 
 ### The Git Process
 
