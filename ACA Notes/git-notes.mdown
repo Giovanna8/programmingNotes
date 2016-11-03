@@ -6,9 +6,11 @@ Alright, so I'll go over the why and how of git, as well as some of the command-
 
 ## Prerequisites
 
-⋅⋅⋅You'll need some stuff before you start working with git. Some of these might seem obvious, but I'll go over everything you need with links and commands for each thing. So lets begin. ⋅⋅⋅First and foremost, make sure your OS is up to date. MacOS Sierra and Windows10 preferably.
+You'll need some stuff before you start working with git. Some of these might seem obvious, but I'll go over everything you need with links and commands for each thing. So lets begin.
 
-- - 'command-line tools' - The command line tools for MacOS. Copy and paste `xcode-select --install` into the terminal. This should bring up a prompt to install XCode's command line tools. This is what will allow you to use git and all the other cool stuff in terminal. for a more in depth discussion on command line tools and what exactly it does, check out <http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/>
+⋅⋅⋅First and foremost, make sure your OS is up to date. MacOS Sierra and Windows10 preferably.
+
+- 'command-line tools' - The command line tools for MacOS. Copy and paste `xcode-select --install` into the terminal. This should bring up a prompt to install XCode's command line tools. This is what will allow you to use git and all the other cool stuff in terminal. for a more in depth discussion on command line tools and what exactly it does, check out <http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/>
 
 - `github` - You'll have to setup a GitHub account to push your code up for people to see. We'll be using this to grade your assignments as well, but this also serves as your programming portfolio.
 

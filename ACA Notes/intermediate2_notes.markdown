@@ -4,12 +4,12 @@
 
 We're going to be going over the basic tools we'll be using this semester.
 
-- `The Command Line`, `terminal` or `CLI` (This is where we'll do a lot our work in. Publishing our work, creating different versions of programs, Installing development libraries for out program, etc.)
-- `Atom` ⋅⋅⋅The Atom Text Editor (or whatever editor you prefer). You can get it here: <https://atom.io/>
-- `Git` ⋅⋅⋅Install and setup git in your terminal by following the steps here: <https://help.github.com/articles/set-up-git/> ⋅⋅⋅If you don't want to use git, you don't have to, but I'll be using it to add to my GitHub profile.
+- `The Command Line`, `terminal` or `CLI` - (This is where we'll do a lot our work in. Publishing our work, creating different versions of programs, Installing development libraries for out program, etc.)
+- `Atom` - The Atom Text Editor (or whatever editor you prefer). You can get it here: <https://atom.io/>
+- `Git` - Install and setup git in your terminal by following the steps here: <https://help.github.com/articles/set-up-git/> If you don't want to use git, you don't have to, but I'll be using it to add to my GitHub profile.
 - 'command-line tools' - The command line tools for MacOS. Copy and paste `xcode-select --install` into the terminal. This should bring up a prompt to install XCode's command line tools. This is what will allow you to use git and all the other cool stuff in terminal. for a more in depth discussion on command line tools and what exactly it does, check out <http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/>
 - `Node` - Node is a tool for the command line that will run javascript and be the basis for our development environment. Go to <https://nodejs.org/en/>, then download and install Node, as it should run you through the process. Their site should provide you with more detail on what Node does, but I'll also go through what it does as we go through this file. You can check to see if you have Node installed by running `node --version` in the terminal.
-- `NPM` ⋅⋅⋅This is the package manager for node as well as Node's tool-belt of sorts. With this you can tell node what to do, and download packages and Javascript Libraries to help make developing more streamlines and less of a headache. Most things Front-End development
+- `NPM` - This is the package manager for node as well as Node's tool-belt of sorts. With this you can tell node what to do, and download packages and Javascript Libraries to help make developing more streamlines and less of a headache. Most things Front-End development
 
 ## Week One
 
@@ -25,17 +25,19 @@ Refer to the git-notes file if you're having trouble with git or want a quick ru
 
 Slicing
 
-⋅⋅⋅slicing parts of a word in this example, let's do the first three letters of the string, and then the last six letters `’somestring’.slice(3, 6)` ⋅⋅⋅outputs `'est'`
+⋅⋅⋅slicing parts of a word in this example, let's do the first three letters of the string, and then the last six letters `’somestring’.slice(3, 6)`
+
+⋅⋅⋅outputs `'est'`
 
 ## Week Two
 
 ### Learning about variables and how they are used in programming.
 
-⋅⋅⋅ie `( var x, function x, etc.)`
+ie `( var x, function x, etc.)`
 
 ### Learning how to include variables into if/else statements
 
-⋅⋅⋅ie
+ie
 
 ```
     function conditionalReturn() {
