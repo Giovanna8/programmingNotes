@@ -25,7 +25,7 @@ Refer to the git-notes file if you're having trouble with git or want a quick ru
 
 Slicing
 
-⋅⋅⋅slicing parts of a word in this example, let's do the first three letters of the string, and then the last six letters `’somestring’.slice(3, 6)`
+slicing parts of a word in this example, let's do the first three letters of the string, and then the last six letters `’somestring’.slice(3, 6)`
 
 ⋅⋅⋅outputs `'est'`
 
