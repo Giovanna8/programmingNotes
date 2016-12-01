@@ -16,6 +16,8 @@ You'll need some stuff before you start working with git. Some of these might se
 
 - `git` - You might already have git installed if you installed the GitHub Desktop client in the intro. If you didn't here's the link to do so, even though we wont be using the Desktop client, it can still come in handy if you're ever stuck <https://desktop.github.com/>.
 
+- `hub` - This is one of my personal favorites for git, and it's not necessary but it'll save a lot of time setting up a new repository and whatnot. Follow the instructions on the website to install (requires brew <http://brew.sh/>). <https://hub.github.com/>.
+
 - `ssh key` - Your SSH key is the bridge between your computer and your github account, more specifically, it's your computer's fingerprint that GitHub will see and know that it's you and not someone else pushing stuff to your GitHub account. Here's what you need to do:
 
 ⋅⋅⋅Go to root `cd ~`
@@ -30,7 +32,7 @@ You'll need some stuff before you start working with git. Some of these might se
 
 ⋅⋅⋅Add your key to the ssh-agent `eval "$(ssh-agent -s)"` `ssh-add ~/.ssh/id_rsa`
 
-⋅⋅⋅Now to copy the SSH key, run `pbcopy < ~/.ssh/id_rsa.pub`. Then go through the instructions on `https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/`
+⋅⋅⋅Now to copy the SSH key, run `pbcopy < ~/.ssh/id_rsa.pub`. Then go through the instructions on <https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/>
 
 ⋅⋅⋅Now test your SSH `ssh -T git@github.com`
 
@@ -45,7 +47,7 @@ So what Git does is it saves a version of the project your working on, more spec
 - `mkdir project` - This creates a file called project.
 - `cd project` - This brings you into the folder you created.
 - `git init` - This initializes git inside the repository that you've created. It adds a folder called .git, which you wont be able to see when running the `ls` command in terminal.
-- `hub create` - This is a GitHub command that creates a repository on GitHub for the folder you made and initialized.
+- `hub create` - This is a Git command that creates a repository on GitHub for the folder you made and initialized.
 - Now from here you can start working on your project!
 
 ⋅⋅⋅Let me run through the usual process someone using git would use.
