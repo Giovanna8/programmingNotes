@@ -1,6 +1,6 @@
 # PHP Tips
 
-# Creating strings
+### Creating strings
 
 ```
 <?php
@@ -22,15 +22,15 @@
 //Outputs string 99
 ```
 
-# Maths
+### Maths
 
-```
+
 //Compare and contrast numbers as you normally would
-    echo 2 == 2;
-    echo 2 > 1;
-```
+    `echo 2 == 2;`
+    `echo 2 > 1;`
 
-# if/else statements
+
+### if/else statements
 
 ```
 $items =  10;   
@@ -57,7 +57,7 @@ $items =  10;
 //outputs This condition is false
 ```
 
-# elseif
+### ElseIf
 
 ```
     $foo = 3;
@@ -72,9 +72,10 @@ $items =  10;
     }
 ```
 
-//outputs True! //simple math stuff no biggie
+outputs `True! `
+simple math stuff no biggie
 
-# control switch
+### control switch
 
 ```
 switch (2) {
@@ -92,9 +93,9 @@ switch (2) {
 }
 ```
 
-//You can also switch syntax by using a variable like- $num = "2"; switch ($num) {...}
+You can also switch syntax by using a variable like- `$num = "2"; switch ($num) {...}`
 
-# Multiple Cases
+### Multiple Cases
 
 ```
 $i = 5;
@@ -118,26 +119,29 @@ switch ($i) {
 }
 ```
 
-//outputs $i is somewhere between 1 and 5\. //always have the default so theres no error if something happens
+outputs `$i` is somewhere between 1 and 5. 
+Always have the default so theres no error if something happens
 
-# Arrays
+### Arrays
 
-//Simple array $array = array("Egg", "Tomato", "Beans"); //(echo $array[1]) or (echo $array{1};) to pick and choose from the array
+Simple array `$array = array("Egg", "Tomato", "Beans”);`
 
-//Change parts of the string $languages = array("HTML/CSS", "JavaScript", "PHP", "Python", "Ruby");
+(`echo $array[1]`) or (`echo $array{1};`) to pick and choose from the array
+
+Change parts of the string `$languages = array("HTML/CSS", "JavaScript", "PHP", "Python", "Ruby”);`
 
 ```
     $languages[1] = "GoLang";
     echo $languages[1];
 ```
 
-//outputs GoLang
+outputs GoLang
 
-//Delete the whole array with unset($array);
+Delete the whole array with unset($array);
 
-//Delete part of the array with unset($array[2]);
+Delete part of the array with unset($array[2]);
 
-# Change Variable
+### Change Variable
 
 ```
     foreach($languages as $lang) {
@@ -145,11 +149,14 @@ switch ($i) {
     }
 ```
 
-//Changes variable name to something easier later in the script
+Changes variable name to something easier later in the script
 
-# Loops
+### Loops
 
-//Here's a for loop that echoes out all the years that have leap years for ($leap = 2004; $leap < 2050; $leap = $leap + 4) { echo "
+Here's a for loop that echoes out all the years that have leap years for (`$leap = 2004; $leap < 2050; $leap = $leap + 4`)
+
+```
+ echo "
 
 $leap
 
@@ -158,10 +165,14 @@ $leap
 $tens
 
 "; }
+```
 
-# ForEach
+### ForEach
 
-//An example ForEach loop //Loops + Arrays = ForEach $langs = array("JavaScript", "HTML/CSS", "PHP", "Python", "Ruby");
+An example ForEach loop
+
+Loops + Arrays = ForEach 
+`$langs = array("JavaScript", "HTML/CSS", "PHP", "Python", "Ruby”);`
 
 ```
       foreach ($langs as $lang) {
@@ -171,7 +182,7 @@ $tens
       unset($lang);
 ```
 
-//Another Example $sentence = array("I'm ", "learning ", "PHP!");
+Another Example `$sentence = array("I'm ", "learning ", "PHP!”);`
 
 ```
     foreach ($sentence as $word) {
@@ -179,7 +190,7 @@ $tens
     }
 ```
 
-//An example that puts it into use $yardlines = array("The 50... ", "the 40... ", "the 30... ", "the 20... ", "the 10... ");
+An example that puts it into use `$yardlines = array("The 50... ", "the 40... ", "the 30... ", "the 20... ", "the 10... “);`
 
 ```
     foreach ($yardlines as $yard) {
@@ -188,22 +199,19 @@ $tens
     echo "touchdown!";
 ```
 
-//Outputs The 50... the 40... the 30... the 20... the 10... touchdown!
+Outputs `The 50... the 40... the 30... the 20... the 10... touchdown!`
 
-# While Loops
+### While Loops
+
+
+A while loop will execute as long as a certain condition is true. //An example page
 
 ```
-//A while loop will execute as long as a certain condition is true. //An example page
-
 <!DOCTYPE html>
-
 <link type="text/css" rel="stylesheet" href="style.css">
-
-
-
 <title>Coin Flips</title>
 
-We are going to flip a coin until we get three heads in a row!
+//We are going to flip a coin until we get three heads in a row!
 
  <?php $headCount = 0; $flipCount = 0; while ($headCount < 3) { $flip = rand(0,1); $flipCount ++; if ($flip){ $headCount ++; echo "
 
@@ -221,3 +229,28 @@ It took {$flipCount} flips!
 
 //Outputs It took 8 flips!
 ```
+
+
+### String Functions
+
+You can create strings with something like `$name = "Konstantine"`
+Now, you can call `$name` and edit the string inside the variable with different string functions.
+
+We can cut a part of the string off with `substr`
+```
+$name = "Konstantine";
+    
+$namepart = substr($name, 0, 5);
+print $namepart;
+```
+Prints `Konst`
+
+There’s other functions as well, such as `strtoupper` to make all letters in the string upper-case, and `strtolower` to make all the letters lower-case.
+
+
+
+
+
+
+
+

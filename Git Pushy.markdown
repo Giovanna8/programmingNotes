@@ -46,7 +46,7 @@ Very rare that you'll have to use this, only use it on your own repositories, an
 
 ## Git-FTP
 
-Use for git-ftp package Useful for wordpress development locally
+Use for git-ftp package Useful for WordPress development locally
 
 ### Setup
 
