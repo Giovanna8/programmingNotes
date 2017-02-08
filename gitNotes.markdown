@@ -13,7 +13,7 @@ git push origin <development branch>
 
 ### first time pushing to gh-pages
 
-Pushes to both master and `gh-pages` branches at the same time
+Pushes to both `master` and `gh-pages` branches at the same time
 
 ```
 git branch gh-pages
@@ -32,7 +32,7 @@ git fetch . master:gh-pages && git push origin --all
 
 ### Use in an emergency
 
-Very rare that you'll have to use this, only use it on your own repositories, and before doing this check to see if you have the latest upstream, and if your branch will merge.
+Very rare that you'll have to use this, only use it on your own repositories. I recommend not using this and figuring out what merge conflicts there are.
 
 `git push origin --all --force`
 
@@ -44,7 +44,7 @@ Very rare that you'll have to use this, only use it on your own repositories, an
 
 ## Git-FTP
 
-Install git-ftp package 
+Install `git-ftp` package 
 Useful for launching static sites to ftp without having to manually upload each file via cPanel or whatever other file system on server. Makes it easy to make changes quick to a live site straight from your command line.
 
 ### Setup
